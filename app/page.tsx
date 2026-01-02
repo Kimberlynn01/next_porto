@@ -5,7 +5,7 @@ import { ArrowRight, Database, Server } from "lucide-react";
 
 export default function HomePage() {
   return (
-    <div className="w-full md:px-10 transition-colors duration-300 bg-white dark:bg-zinc-950 text-gray-900 dark:text-zinc-100">
+    <div className="w-full px-6 md:px-10 transition-colors duration-300 bg-white dark:bg-zinc-950 text-gray-900 dark:text-zinc-100">
       <div className="max-w-5xl mx-auto flex flex-col lg:flex-row gap-12 items-center justify-between mt-10 lg:mt-20">
         <div className="flex-1 space-y-8">
           <div className="inline-flex items-center px-3 py-1 rounded-lg text-xs font-medium border bg-gray-50 border-gray-200 dark:bg-zinc-900 dark:border-zinc-800 text-gray-500 dark:text-zinc-400">

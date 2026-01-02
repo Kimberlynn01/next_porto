@@ -6,10 +6,8 @@ export const dynamic = "force-dynamic";
 
 export const GET = async () => {
   try {
-    // Panggil kedua service secara paralel agar cepat
     const [monkeyResponse, wakaResponse] = await Promise.all([getMonkeytypeData(), getWakatimeData()]);
 
-    // Gabungkan hasilnya
     return NextResponse.json(
       {
         monkey: monkeyResponse.data,
