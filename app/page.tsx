@@ -77,7 +77,7 @@ export default function HomePage() {
               <div className="text-yellow-500">{"}"};</div>
 
               <div className="mt-4 flex items-center gap-2 border-t pt-4 border-dashed border-gray-300 dark:border-gray-600/30">
-                <span className="text-pink-500">$</span> <span className="text-gray-600 dark:text-gray-300">php artisan ser</span>
+                <span className="text-pink-500">$</span> <span className="text-gray-600 dark:text-gray-300">node server.js</span>
                 <span className="w-2 h-4 bg-gray-400 animate-pulse"></span>
               </div>
             </div>
