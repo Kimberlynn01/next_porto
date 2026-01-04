@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Sidebar from "./components/sidebar";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Columns2 } from "lucide-react";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
@@ -54,9 +54,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main className="flex-1 overflow-y-auto bg-white dark:bg-zinc-950 relative">
             <div className="md:hidden p-4 flex items-center bg-white dark:bg-zinc-950 border-b dark:border-zinc-800">
               <button onClick={() => setIsSidebarOpen(!isSidebarOpen)} className="p-2 text-zinc-600 dark:text-zinc-400">
-                {isSidebarOpen ? <X size={24} /> : <Menu size={24} />}
+                {isSidebarOpen ? <X size={24} /> : <Columns2 size={24} />}
               </button>
-              <span className="ml-4 font-bold dark:text-white text-zinc-900">Menu</span>
             </div>
 
             {children}

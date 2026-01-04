@@ -5,6 +5,19 @@ import { FolderOpen, ExternalLink, Github, X, Code2, Layers, ArrowRight } from "
 
 const PROJECTS = [
   {
+    id: 0,
+    title: "CRONCH.ID",
+    shortDesc: "A e-commerce platform.",
+    fullDesc:
+      "School Share is a comprehensive application designed to bridge the gap between researchers. It facilitates real-time discussion, document sharing, and peer review processes. Built with a focus on scalability and security, allowing researchers to work remotely (WFH) seamlessly.",
+    image: "images/cronch.jpeg",
+    techStack: ["Laravel", "PHP", "MySQL", "Bootstrap", "Dart", "Flutter"],
+    githubUrl: "",
+    demoUrl: "https://cronch.danudiraja.space",
+    role: "Back-End Developer",
+    date: "Jun 2025",
+  },
+  {
     id: 1,
     title: "School Share",
     shortDesc: "A collaborative platform for researchers to share findings.",
